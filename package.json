@@ -1,0 +1,28 @@
+{
+  "name": "samp-servers-api",
+  "version": "1.0.0",
+  "description": "Real-time SA-MP Game Servers Query API",
+  "main": "api/samp-server.js",
+  "scripts": {
+    "start": "node api/samp-server.js",
+    "dev": "nodemon api/samp-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "node-fetch": "^2.6.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": ["samp", "gta", "server", "api", "query"],
+  "author": "samp-servers-api",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mxdt1378/samp-servers-api"
+  }
+}
