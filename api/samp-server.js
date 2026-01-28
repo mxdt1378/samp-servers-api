@@ -164,7 +164,7 @@ app.post('/api/samp-servers', async (req, res) => {
 function queryRealSampServer(ip, port) {
   return new Promise((resolve, reject) => {
     const client = dgram.createSocket('udp4');
-    const timeout = 5000;
+    const timeout = 50000000;
     
     // 创建SA-MP查询包
     const queryPacket = createSampQueryPacket(ip, port);
